@@ -18,6 +18,11 @@ public: TicTacToe();    //default constructor and desatructor
 		//mutator functions
 		void setPlayer(int);
 
+		//Other functions
+		bool move(int, int);
+		int winner();
+		
+		void nextMove(int &, int &);
 
 };
 
